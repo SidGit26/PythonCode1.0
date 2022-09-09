@@ -1,6 +1,4 @@
-
-
-
+#Siddharth Tiwari B-3 
 num1= int(input("Enter the First number\n"))
 num2= int(input("Enter the Second number\n"))
 if num1>num2:
