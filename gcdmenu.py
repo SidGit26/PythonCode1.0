@@ -9,3 +9,4 @@ for i in range(1, min+1):
     if num1%i==0 and num2%i==0:
        gcd = i
 print(f"The GCD of these two numbers is {gcd}")
+// yes this is correct code and nicely implemented plan.
