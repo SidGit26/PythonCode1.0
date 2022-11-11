@@ -1,0 +1,39 @@
+def gcd(a, b):
+    
+    
+
+   if(a == 0):
+        
+     return b
+    
+   return gcd(b % a, a)
+
+def lcm(a, b):
+    
+    
+  
+  return (a * b) / gcd(a, b)
+
+
+
+def printSum(num1, den1,num2, den2):
+    
+  lcd = lcm(den1, den2);
+    
+  num1 *= (lcd / den1)
+    
+  num2 *= (lcd / den2)
+    
+  res_num = num1 + num2;
+    
+  print( int(res_num) , "/" ,
+int(lcd))
+
+num1 = 1
+
+den1 = 6
+
+num2 = 7
+
+den2 = 15
+printSum(num1, den1, num2, den2);
